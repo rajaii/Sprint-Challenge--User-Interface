@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,96 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+
+/*////////////////////////////////////*/
+
+.head {
+	display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 25px;
+	
+}
+.head a {
+	text-decoration: none;
+	color: black;
+	margin-left: 50px;
+}
+.midpic {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;
+}
+.box7 {
+    background-color: darkorchid;
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo;
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
+.picunderhead {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.aboutsec {
+    padding-bottom: 25px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 25px;
+    
+}
+
+.big-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.big-flex div {
+    width: 400px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+}
+.big-flex .nobottom {
+    border-bottom: 1px solid white;
+}
+
+.lstsec {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+button {
+    margin-top: 25px;
+    border-radius: 6px;
+    padding: 5px 10px;
+    background-color: white;
+    border: solid;
 }
